@@ -2,10 +2,11 @@
 <html>
 <head>
 <style>
+
 body {
   background-color: #FFFDF8;
 }
-	
+
 .header {
 background-color: #641E16;
 color: #FFFDF8;
@@ -13,16 +14,40 @@ text-align: center;
 padding: 20px;
 }
 
+ul {
+list-style-type: none;
+margin-bottom: 45px;
+overflow: hidden;
+background-color: #DAF7A6;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #641E16;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #641E16; color: #FFFDF8;
+}
+
 .column {
-float: left;
-padding: 10px;}
+  float: left;
+  padding: 10px;
+}
 
 .column.side {
-width: 25%;
+  width: 25%;
 }
 
 .column.middle {
-width: 70%;
+  width: 70%;
 }  
 
 .footer {
@@ -40,6 +65,12 @@ padding: 20px;
 <div class="header">
 Sarah Griffiths
 </div>
+
+<ul>
+  <li><a class="active" href="#home">About Me</a></li>
+  <li><a href="#news">Experience and Skills</a></li>
+  <li><a href="#contact">Disseration and Digs</a></li>
+</ul>
 
 <div class="column middle">
 	<h2> Work and Stuff </h2>
