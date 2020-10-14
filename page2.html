@@ -2,26 +2,21 @@
 <html>
 <head>
 <style>
+
 body {
-  background-color: #FFFDF8 ;
+  background-color: #FFFDF8;
+}
+
+.header {
+text-align: center;
+padding: 20px;
 }
 
 h1 {
-  margin: auto; width: 50%; color: #666600  ; text-align: center; padding-top: 45px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; font-size: 60px;
+  margin: auto; width: 50%; color: #666600; text-align: center; font-size: 60px;
 }
 
-h2 {
-  margin:auto; width: 50%; text-align: center; padding-top: 5px; padding-bottom: 45px; text-size: 40px; color: #641E16;
-}
 
-.center {
-  margin: auto; width: 50%; background-color: #DAF7A6 ; padding-top: 10px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #641E16; border-radius: 10px;
-}
-
-img {
-  display: block; margin-left: auto; margin-right: auto; border-radius: 175px; width:254px; height:254px;
-}
-  
 ul {
 list-style-type: none;
 margin-bottom: 45px;
@@ -47,24 +42,122 @@ li a:hover {
   background-color: #641E16; color: #FFFDF8;
 }
 
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 25%;
+  text-align: center;
+}
+
+.column.middle {
+  width: 70%;
+}  
+
+h2 {
+color: #666600; border-bottom: 2px solid; border-color: #641E16; font-size: 45px; 
+}
+
+h3 {
+color: #641E16; font-size: 25px; margin-top: 45px;
+}
+
+h4 { 
+color: #641E16; font-size: 25px; margin-bottom: 5px;
+}
+
+h5 {
+color: #641E16; font-size: 20px; margin-top: 0px; margin-bottom: 5px;
+}
+
+p {
+color:#641E16; font-size: 15px;
+}
+
+.greenbox {
+background-color: #DAF7A6; padding-top: 10px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; border-radius: 10px; margin-bottom: 55px;
+}
+
+
+.center {
+  margin: auto; width: 50%; background-color: #DAF7A6 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #641E16; border-radius: 10px;
+}
+
+
+.contact {
+  margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #641E16; border-radius: 10px; color: #FFFDF8;
+}
+
+.contact2 {
+ margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; width: 50%; background-color: #641E16; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #641E16; border-radius: 10px; color: #FFFDF8;
+}
+
 </style>
 </head>
 
 
 <body>
+<div class="header">
+	<h1>Sarah Griffiths</h1>
+</div>
+
 <ul>
   <li><a class="active" href="#home">About Me</a></li>
   <li><a href="#news">Experience and Skills</a></li>
   <li><a href="#contact">Disseration and Digs</a></li>
 </ul>
-  
-<img src= "image.jpg" alt= "Photo of Sarah" style="width:250px; height:250px"/>
-<h1> Sarah Griffiths </h1>
-<h2> Super rad tagline</h2>
 
-<div class="center">
-<h3> Some fun facts </h3>
-<p> Here's some neat stuff that may or may not be true. This is me attempting to make the box big like I have things to say about myself. I have nothing to say about myself. I hate that this project requires me to write a CV again. I hate writing about myself. This is going to take up more time than I'd like for the assignment and I'm not even being graded on my words. It's the website. Is this long enough? </p>
+<div class="column middle">
+	<h2> Education </h2>
+	<div class="greenbox">
+	<h4> OCGC Geographic Information Systems - Applications Specialist </h4>
+	<h5> Fleming College 2020-2021 </h5>
+	<p>Here is education and work experience. I have a lot to say. Need to fill up some space to see if the columns will work because I don't think they are working currently. </p>
+	<h4> MSc Environmental Archaeology </h4>
+	<h5> University of Reading 2015-2016 </h5>
+	<p>Here is education and work experience. I have a lot to say. Need to fill up some space to see if the columns will work because I don't think they are working currently. </p>
+	<h4> BA Anthropology; Classics </h4>
+	<h5> Saint Mary's University 2011-2015 </h5>
+	<p>Here is education and work experience. I have a lot to say. Need to fill up some space to see if the columns will work because I don't think they are working currently. </p>
+	</div>
+	<h2> Field Work </h2>
+	<div class="greenbox">
+	<h4> Boreas Heritage Consulting Inc </h4>
+	<h5> Field Technician 2018, 2019 </h5>
+	<h4> Field Schools </h4>
+	<h5> Gotlands Folkhögskola & Arendus 2014 </h5>
+	<h5> Basentello Valley Archaeological Research Project 2013 </h5>
+	<h5> Bader International Study Centre 2012 </h5>
+	<h4> Parks Canada Archaeology Lab Dartmouth</h4>
+	<h5> Volunteer 2011-2012 </h5>
+	</div>
+
+	<h2> Other Work </h2>
+	<div class="greenbox">
+	<h4> Lee Valley Tools </h4>
+	<h5> Administrative Assistant 2018-2020 </h5>
+	<h4> Sobeys </h4>
+	<h5> File Maintenance Clerk 2017-2018 </h5>
+	<h4> White Sails Bakery and Deli </h4>
+	<h5> Baker & Cook 2017-2018 </h5>
+
+	</div>
 </div>
+
+<div class="column side">
+	<h3> Contact </h2>
+	<p class="contact"> sarah@mail.com</p>
+	<p class="contact2"> 000-000-0000</p>
+	<p class="contact2"> LinkedIn</p>
+	<h3> Skills </h2>
+	<p class="center">Here is some listed skills I think I have. I have a lot to say. Need to fill up some space to see if the columns will work because I don't thnik they are working currently. how do structure to have them in a list like fashion? maybe css or html way to do a list.</p>
+	<h3> Certificates & Licenses </h2>
+	<p class="center">Here is some listed skills I think I have. I have a lot to say. Need to fill up some space to see if the columns will work because I don't thnik they are working currently. how do structure to have them in a list like fashion? maybe css or html way to do a list.</p>
+
+
+</div>
+
 </body>
 </html>
