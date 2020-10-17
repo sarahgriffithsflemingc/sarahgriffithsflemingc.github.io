@@ -122,13 +122,16 @@ background-color: #DAF7A6; padding-top: 10px; padding-right: 50px; padding-left:
 }
 
 .contact {
-  margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #641E16; border-radius: 10px; color: #FFFDF8;
+  margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; border-radius: 10px; color: #FFFDF8;
 }
 
 .contact2 {
  margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; width: 50%; background-color: #641E16; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #641E16; border-radius: 10px; color: #FFFDF8;
 }
 
+.contactlink {
+ color: #FFFDF8;
+}
 
 /* Page 3 Specific Styles */
 
