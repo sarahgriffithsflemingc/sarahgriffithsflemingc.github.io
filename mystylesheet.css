@@ -70,7 +70,7 @@ border-bottom: 4px solid; border-color: #641E16; font-weight:700;
 }
 
 .gaelicheader {
-	text-align: center; color: #641E16; font-size: 20px; font-weight:700; margin-block-start: 15px; margin-block-end: 15px;
+	text-align: center; color: #641E16; font-size: 20px; font-weight:700; margin-block-start: 15px; margin-block-end: 15px; font-family:Georgia, serif;
 }
 
 .summarytext {
@@ -89,7 +89,7 @@ border-bottom: 4px solid; border-color: #641E16; font-weight:700;
 .column.side {
   width: 25%;
   margin: auto;
-  text-align: center;
+
 }
 
 .column.middle {
@@ -97,51 +97,54 @@ border-bottom: 4px solid; border-color: #641E16; font-weight:700;
   width: 70%;
 }  
 
-.resumeheading {
-color: #666600; border-bottom: 4px solid; border-color: #641E16; font-size: 35px; margin-left: 30px; 
-}
-
-.sidebartitle {
-color: #666600; font-size: 25px; margin-top: 45px;
-}
-
-.degreecompany { 
-color: #641E16; font-size: 25px; margin-bottom: 5px;
-}
-
-.positionschool {
-color: #641E16; font-size: 20px; margin-top: 0px; margin-bottom: 5px;
-}
-
-.resumetxt {
-color:#641E16; font-size: 15px;
-}
-
 .resumefield {
 background-color: #DAF7A6; padding-top: 10px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; border-radius: 10px; margin-bottom: 55px; margin-left: 30px;
 }
 
+.resumeheading {
+color: #666600; border-bottom: 4px solid; border-color: #641E16; font-size: 35px; margin-left: 30px; margin-block-end:8px; margin-block-start:8px; font-weight:700;
+}
+
+
+.degreecompany { 
+color: #641E16; font-size: 25px; margin-block-end:0px; margin-block-start:15px; font-weight:700; text-align:left;
+}
+
+.positionschool {
+color: #641E16; font-size: 20px; margin-block-end:5px; margin-block-start:2px; font-weight: 500; font-family:Georgia, serif; text-align: left;
+}
+
+.resumetxt {
+text-align: justify; color: #641E16;  font-size: 15px; font-weight: 400; margin-block-start: 15px; margin-block-end: 25px;
+}
+
+
+.sidebartitle {
+color: #666600; font-size: 25px; margin-block-start: 45px; margin-block-end:30px; text-align: center; font-weight: 700;
+}
+
 .sidebartext {
-  margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #FFFDF8; border-radius: 10px;
+  margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; 
+  padding-bottom: 20px; text-align: center; color: #FFFDF8; border-radius: 10px; font-size:15px; font-family:Georgia, serif;
 }
 
 .contact {
-  margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; border-radius: 10px; color: #FFFDF8;
+  margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; 
+  padding-bottom: 20px; text-align: center; color: #FFFDF8; border-radius: 10px; font-size:15px; font-family:Georgia, serif;
 }
 
 .contact2 {
- margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; width: 50%; background-color: #641E16; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #641E16; border-radius: 10px; color: #FFFDF8;
+ margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; width: 50%; background-color: #641E16; 
+ padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #FFFDF8;
+ border-radius: 10px;  font-size:15px; font-family:Georgia, serif;
 }
 
-.contactlink {
- color: #FFFDF8;
-}
 
 /* Page 3 Specific Styles */
 
 
 .disstitle {
-color: #666600; border-bottom: 4px solid; border-color: #641E16; font-size: 30px; margin-right: 30px; margin-left: 30px; margin-top: 85px;
+color: #666600; border-bottom: 4px solid; border-color: #641E16; font-size: 30px; margin-right: 30px; margin-left: 30px; margin-top: 75px;
 }
 
 .disstxt {
@@ -174,8 +177,4 @@ float: right; margin-top: 10px; margin-right: 10px; margin-bottom: 10px;
   
 .dissheading {
 margin-top: 10px; margin-bottom: 10px;
-}
-
-.sillink {
-  color: #641E16;
 }
