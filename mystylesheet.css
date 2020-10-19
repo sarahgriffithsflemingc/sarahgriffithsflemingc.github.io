@@ -143,6 +143,11 @@ color: #666600; font-size: 25px; margin-block-start: 45px; margin-block-end:30px
 /* Page 3 Specific Styles */
 
 
+.dissbody {
+background-color: #DAF7A6; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; border-radius: 10px; 
+margin-bottom: 55px; margin-right: 50px; margin-left: 50px;
+}
+
 .disstitle {
 color: #666600; border-bottom: 4px solid; border-color: #641E16; font-size: 35px; margin-right: 20px; margin-left: 30px;
  margin-block-end:8px; margin-block-start:30px; font-weight:700;
@@ -152,10 +157,6 @@ color: #666600; border-bottom: 4px solid; border-color: #641E16; font-size: 35px
 margin-block-start: 10px; margin-block-end: 10px; font-size:20px; font-weight: 700; font-family: Georgia, serif; text-align: left; color:#641E16
 }
 
-.dissbody {
-background-color: #DAF7A6; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; border-radius: 10px; 
-margin-bottom: 55px; margin-right: 50px; margin-left: 50px;
-}
 
 .disstext {
 	color:#641E16; text-align: justify; font-weight: 400; font-size: 15px; margin-block-start:10px; margin-block-end: 20px;
@@ -173,6 +174,11 @@ margin-top: 25px;
 margin-bottom: 25px;
 }
 
+.figtext{
+font-size: 12px;
+}	
+	
+	
 .silinfo {
 background-color:#DAF7A6;padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; border-radius: 10px; 
 margin-top: 55px; margin-bottom: 55px; margin-right: 50px; margin-left: 50px;
@@ -192,5 +198,6 @@ float:left; margin-top: 10px; margin-right: 20px; margin-bottom: 20px; margin-le
 }
 
 .right {
-float: right; margin-top: 10px; margin-right: 10px; margin-bottom: 10px;
+float: right; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; font-size: 12px;
 }
+
