@@ -72,6 +72,8 @@ border-bottom: 4px solid; border-color: #641E16;
   margin: auto; width: 50%; background-color: #DAF7A6 ; padding-top: 10px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #641E16; border-radius: 10px;
 }
 
+.gaelicheader {
+  font-size:20px}
 
 
 /* Page 2 Specific Styles */
