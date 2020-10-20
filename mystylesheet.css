@@ -164,11 +164,17 @@ color: #666600; border-bottom: 4px solid; border-color: #641E16; font-size: 35px
 margin-top: 10px; margin-bottom: 10px; font-size:20px; font-weight: 700; font-family: Georgia, serif; text-align: left; color:#641E16
 }
 
-
 .disstext {
 	color:#641E16; text-align: justify; font-weight: 400; font-size: 15px; margin-top:10px; margin-bottom: 20px;
 }
+
+.figtext{
+font-size: 12px; color:#641E16;
+}	
 	
+.dissimage {
+float: left;
+}
 
 .imageborder { 
 background-color:#641E16; color: #FFFDF8; 
@@ -180,11 +186,16 @@ margin:auto;
 margin-top: 25px;
 margin-bottom: 25px;
 }
-
-.figtext{
-font-size: 12px; color:#641E16;
-}	
 	
+.imagecenter{
+display:block; margin-top: 10px; margin-right: auto; margin-bottom: 20px; margin-left: auto;
+}
+
+.imagecap{
+margin-top: 12px; margin-right: 10px; margin-bottom: 10px;
+}
+
+
 	
 .silinfo {
 background-color:#DAF7A6;padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; border-radius: 10px; 
@@ -204,11 +215,4 @@ color:#641E16; text-align: justify; font-weight: 400; font-size: 15px; margin-to
 	color:#641E16
 }
 
-.imagecenter{
-display:block; margin-top: 10px; margin-right: auto; margin-bottom: 20px; margin-left: auto;
-}
-
-.imagecap{
-margin-top: 12px; margin-right: 10px; margin-bottom: 10px; font-size: 10px;
-}
 
