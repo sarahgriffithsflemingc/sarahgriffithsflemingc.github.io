@@ -1,7 +1,9 @@
 /* Stylesheet for personal website. */
 
 
-/* Cross Platform Styles */
+/* Universal CSS */
+/* Consistent header and navbar placement to create unity between pages as if the header and navbar were fixed */
+/* Use of repeated 4 colours throughout website to create unity */
 
 
 body {
@@ -15,7 +17,11 @@ h1 {
 padding: 20px; font-weight: 700;
 }
 
+/* Assignment Part 3 Requirement: Navigation Bars */
 /* Navbar modified from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/* The colour of the text, background, hover background and hover text were changed. I also rounded the borders 
+following https://www.w3schools.com/css/css_border.asp. */
+/* The use of rounded borders in my theme was inspired by my partner, Corwan Giroux. */
   
 ul {
 list-style-type: none;
@@ -47,41 +53,46 @@ li a:hover {
 
 
 
-/* Index Specific Styles */
+/* index.html Specific Styles */
 
 
-/* Centering image css from https://www.w3schools.com/howto/howto_css_image_center.asp */
+/* Centering image code from https://www.w3schools.com/howto/howto_css_image_center.asp */
+/* I rounded the border of the image to keep in line with the rounded boxes throughout the website. */
 
 .profilepic {
   display: block; margin-left: auto; margin-right: auto; border-radius: 175px;
 }
 
+/* Alignment of header following https://www.w3schools.com/css/css_align.asp */
 .tagline {
   margin:auto; margin-top:0px; margin-bottom: 30px; width: 50%; text-align: center; padding-top: 30px; padding-bottom: 10px; font-size: 30px; color: #641E16; 
 border-bottom: 4px solid; border-color: #641E16; font-weight:700;
 
 }
 
-/* Centered block modified from https://www.w3schools.com/css/css_website_layout.asp */
+/* Centered block modified from https://www.w3schools.com/css/css_website_layout.asp and https://www.w3schools.com/css/css_align.asp */
 
 .summarybox {
   margin: auto; width: 50%; background-color: #DAF7A6 ; padding-top: 10px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px;
   border-radius: 10px;
 }
 
+/* Alignment of header following https://www.w3schools.com/css/css_text_align.asp */
+/* I've incorporated a second font to distinguish the use of a different language in my header */
 .gaelicheader {
 	text-align: center; color: #641E16; font-size: 20px; font-weight:700; margin-top: 15px; margin-bottom: 15px; 
 	font-family:Georgia, serif;
 }
 
+/* Alignment of text following https://www.w3schools.com/css/css_text_align.asp */
 .summarytext {
 	text-align: justify; color: #641E16;  font-size: 15px; font-weight: 400; margin-top: 10px; margin-bottom: 10px;
 }
 
 
-/* Page 2 Specific Styles */
+/* page2.html Specific Styles */
 
-
+/* Two column layout modified from https://www.w3schools.com/css/css_website_layout.asp to recreate unequal column layout  */
 .column {
   float: left;
   padding: 10px;
@@ -113,6 +124,7 @@ margin-bottom:8px; margin-top:8px; font-weight:700;
 color: #641E16; font-size: 25px; margin-bottom:0px; margin-top:15px; font-weight:700; text-align:left;
 }
 
+/* I've incorporated a second font to distinguish this heading from the one above and the text below in place of using italics. */
 .positionschool {
 color: #641E16; font-size: 20px; margin-bottom:5px; margin-top:2px; font-weight: 500; font-family:Georgia, serif; text-align: left;
 }
@@ -126,6 +138,8 @@ text-align: justify; color: #641E16;  font-size: 15px; font-weight: 400; margin-
 color: #666600; font-size: 25px; margin-top: 45px; margin-bottom:30px; text-align: center; font-weight: 700;
 }
 
+
+/* To tie in the second font used in my right column section, I used the font again in my sidebar. */
 .sidebartext {
   margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; 
   padding-bottom: 20px; text-align: center; color: #FFFDF8; border-radius: 10px; font-size:15px; font-family:Georgia, serif;
@@ -133,7 +147,7 @@ color: #666600; font-size: 25px; margin-top: 45px; margin-bottom:30px; text-alig
 
 .contact {
   margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; 
-  padding-bottom: 20px; text-align: center; color: #FFFDF8; border-radius: 10px; font-size:15px; font-family:Georgia, serif;
+  padding-bottom: 20px; color: #FFFDF8; border-radius: 10px; font-size:12px; font-family:Georgia, serif;
 }
 
 .contact2 {
@@ -142,12 +156,15 @@ color: #666600; font-size: 25px; margin-top: 45px; margin-bottom:30px; text-alig
  border-radius: 10px;  font-size:15px; font-family:Georgia, serif;
 }
 
+
+/* Assignment Part 3 Requirement: 1/2 external links */
 .contactlink {
 	color: #FFFDF8;
 }
 
 
-/* Page 3 Specific Styles */
+
+/* page3.html Specific Styles */
 
 
 .dissbody {
@@ -159,40 +176,46 @@ margin-bottom: 55px; margin-right: 50px; margin-left: 50px;
 color: #666600; border-bottom: 4px solid; border-color: #641E16; font-size: 35px; margin-right: 20px; margin-left: 30px;
  margin-bottom:8px; margin-top:30px; font-weight:700;
 }
-  
+ 
+/*Added second font from previous pages to use a distinguisher in header in addition to bolded font.*/
 .dissheading {
 margin-top: 10px; margin-bottom: 10px; font-size:20px; font-weight: 700; font-family: Georgia, serif; text-align: left; color:#641E16
 }
-
-.disstext {
-	color:#641E16; text-align: justify; font-weight: 400; font-size: 15px; margin-top:10px; margin-bottom: 20px;
+	
+/* Float image from https://www.w3schools.com/css/css_float.asp */
+.dissimage {
+float: left;
 }
 
 .figtext{
 font-size: 12px; color:#641E16;
 }	
 	
-.dissimage {
-float: left;
+.disstext {
+	color:#641E16; text-align: justify; font-weight: 400; font-size: 15px; margin-top:10px; margin-bottom: 20px;
 }
 
+
+
+/* Assignment Part 3 Requirement: 5/5 Images */
 .imageborder { 
 background-color:#641E16; color: #FFFDF8; 
-padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 40px; 
+padding-top: 30px; padding-right: 30px; padding-left: 30px; padding-bottom: 40px; 
 border: 25px #641E16;
 border-radius: 10px;
 width: 750px;
-margin:auto;
+margin:auto; /* Center alignment of block https://www.w3schools.com/css/css_align.asp when auto is removed, it sits on the left.*/
 margin-top: 25px;
 margin-bottom: 25px;
 }
-	
+
+/* Center alignment of image modified from https://www.w3schools.com/css/css_align.asp */
 .imagecenter{
 display:block; margin-top: 10px; margin-right: auto; margin-bottom: 20px; margin-left: auto;
 }
 
 .imagecap{
-margin-top: 12px; margin-right: 10px; margin-bottom: 10px;
+margin-top: 12px; margin-right: 10px; margin-bottom: 10px; text-align:center;
 }
 
 
@@ -203,6 +226,7 @@ margin-top: 55px; margin-bottom: 55px; margin-right: 50px; margin-left: 50px;
 
 }
 
+/*Added second font from previous pages to use a distinguisher in header in addition to bolded font.*/
 .silheading {
 margin-top: 10px; margin-bottom: 10px; font-size:20px; font-weight: 700; font-family: Georgia, serif; text-align: left; color:#641E16
 }
@@ -211,6 +235,7 @@ margin-top: 10px; margin-bottom: 10px; font-size:20px; font-weight: 700; font-fa
 color:#641E16; text-align: justify; font-weight: 400; font-size: 15px; margin-top:10px; margin-bottom: 20px;
 }
 
+/* Assignment Part 3 Requirement: 2/2 external links */
 .sillink {
 	color:#641E16
 }
