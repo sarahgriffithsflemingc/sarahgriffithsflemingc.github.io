@@ -11,6 +11,10 @@ body {
 }
 
 /* Header modified from https://www.w3schools.com/css/css_website_layout.asp */
+/* All padding for design following https://www.w3schools.com/css/css_padding.asp */
+/* All margin for desgin following https://www.w3schools.com/css/css_margin.asp */
+/* All font (family, style, siz) and text (color, alignment) following https://www.w3schools.com/css/css_font.asp and https://www.w3schools.com/css/css_text.asp */
+
 
 h1 {
      margin-top: 8px; margin-bottom: 8px; color: #666600; text-align: center; font-size: 60px;
@@ -19,8 +23,8 @@ padding: 20px; font-weight: 700;
 
 /* Assignment Part 3 Requirement: Navigation Bars */
 /* Navbar modified from https://www.w3schools.com/css/css_navbar_horizontal.asp */
-/* The colour of the text, background, hover background and hover text were changed. I also rounded the borders 
-following https://www.w3schools.com/css/css_border.asp. */
+/* The colour of the text, background, hover background and hover text were changed. I also rounded the borders following https://www.w3schools.com/css/css_border.asp. */
+/* Rounded borders include the navbar itself and the hover */
 /* The use of rounded borders in my theme was inspired by my partner, Corwan Giroux. */
   
 ul {
@@ -53,36 +57,39 @@ li a:hover {
 
 
 
+
 /* index.html Specific Styles */
 
-
+/* Styles for profile image and tagline */
 /* Centering image code from https://www.w3schools.com/howto/howto_css_image_center.asp */
 /* I rounded the border of the image to keep in line with the rounded boxes throughout the website. */
-
 .profilepic {
   display: block; margin-left: auto; margin-right: auto; border-radius: 175px;
 }
 
 /* Alignment of header following https://www.w3schools.com/css/css_align.asp */
+/* Border modified from https://www.w3schools.com/css/css_border.asp */
 .tagline {
   margin:auto; margin-top:0px; margin-bottom: 30px; width: 50%; text-align: center; padding-top: 30px; padding-bottom: 10px; font-size: 30px; color: #641E16; 
 border-bottom: 4px solid; border-color: #641E16; font-weight:700;
 
 }
 
-/* Centered block modified from https://www.w3schools.com/css/css_website_layout.asp and https://www.w3schools.com/css/css_align.asp */
 
+/* Styles for <div> block for summary text and heading */
+/* Centered block modified from https://www.w3schools.com/css/css_website_layout.asp and https://www.w3schools.com/css/css_align.asp */
 .summarybox {
   margin: auto; width: 50%; background-color: #DAF7A6 ; padding-top: 10px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px;
   border-radius: 10px;
 }
 
 /* Alignment of header following https://www.w3schools.com/css/css_text_align.asp */
-/* I've incorporated a second font to distinguish the use of a different language in my header */
+/* I've incorporated a second font to distinguish the use of a different language in my header alongside italicising to denote another language without <i> as per assignment*/
+/* <i> denotes another language as per https://www.w3schools.com/tags/tag_i.asp however as the whole header is Gaelic, and due to the assignment instructions, used font-style https://www.w3schools.com/css/css_font_style.asp */
 /* Font-family from https://www.w3schools.com/css/css_font.asp */
 .gaelicheader {
 	text-align: center; color: #641E16; font-size: 20px; font-weight:700; margin-top: 15px; margin-bottom: 15px; 
-	font-family:Georgia, serif;
+	font-family:Georgia, serif; font-style: italic;
 }
 
 /* Alignment of text following https://www.w3schools.com/css/css_text_align.asp */
@@ -91,8 +98,12 @@ border-bottom: 4px solid; border-color: #641E16; font-weight:700;
 }
 
 
+
+
 /* page2.html Specific Styles */
 
+
+/* Styles for left column of Page 2: Education and Field Experience */
 /* Two column layout modified from https://www.w3schools.com/css/css_website_layout.asp to recreate unequal column layout  */
 .column {
   float: left;
@@ -128,14 +139,15 @@ color: #641E16; font-size: 25px; margin-bottom:0px; margin-top:15px; font-weight
 /* I've incorporated a second font to distinguish this heading from the one above and the text below in place of using italics. */
 /* Font-family from https://www.w3schools.com/css/css_font.asp */
 .positionschool {
-color: #641E16; font-size: 20px; margin-bottom:5px; margin-top:2px; font-weight: 500; font-family:Georgia, serif; text-align: left;
+color: #641E16; font-size: 20px; margin-bottom:15px; margin-top:2px; font-weight: 500; font-family:Georgia, serif; text-align: left;
 }
 
 .resumetxt {
-text-align: justify; color: #641E16;  font-size: 15px; font-weight: 400; margin-top: 15px; margin-bottom: 25px;
+text-align: justify; color: #641E16;  font-size: 15px; font-weight: 400; margin-top: 5px; margin-bottom: 25px;
 }
 
 
+/* Styles for the right column of Page 2: Contact, Skills and Licenses*/
 .sidebartitle {
 color: #666600; font-size: 25px; margin-top: 45px; margin-bottom:30px; text-align: center; font-weight: 700;
 }
@@ -143,10 +155,6 @@ color: #666600; font-size: 25px; margin-top: 45px; margin-bottom:30px; text-alig
 
 /* To tie in the second font used in my right column section, I used the font again in my sidebar. */
 /* Font-family from https://www.w3schools.com/css/css_font.asp */
-.sidebartext {
-  margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; 
-  padding-bottom: 20px; text-align: center; color: #FFFDF8; border-radius: 10px; font-size:15px; font-family:Georgia, serif;
-}
 
 .contact {
   margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; 
@@ -156,20 +164,26 @@ color: #666600; font-size: 25px; margin-top: 45px; margin-bottom:30px; text-alig
 .contact2 {
  margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; width: 50%; background-color: #641E16; 
  padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; text-align: center; color: #FFFDF8;
- border-radius: 10px;  font-size:15px; font-family:Georgia, serif;
+ border-radius: 10px;  font-size:16px; font-family:Georgia, serif;
 }
-
 
 /* Assignment Part 3 Requirement: 1/2 external links */
 .contactlink {
-	color: #FFFDF8;
+	color: #FFFDF8; font-family:Georgia, serif; font-size: 16px;
 }
+
+/* List set up and styling following https://www.w3schools.com/css/css_list.asp to create square bullets */
+.sidebartext {
+  margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; 
+  padding-bottom: 20px;color: #FFFDF8; border-radius: 10px; font-size:15px; font-family:Georgia, serif; list-style-type: square; font-weight:400
+}
+
 
 
 
 /* page3.html Specific Styles */
 
-
+/* Styles for <div> containing excerpt from disseration */
 .dissbody {
 background-color: #DAF7A6; padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; border-radius: 10px; 
 margin-bottom: 55px; margin-right: 50px; margin-left: 50px;
@@ -178,6 +192,11 @@ margin-bottom: 55px; margin-right: 50px; margin-left: 50px;
 .disstitle {
 color: #666600; border-bottom: 4px solid; border-color: #641E16; font-size: 35px; margin-right: 20px; margin-left: 30px;
  margin-bottom:8px; margin-top:30px; font-weight:700;
+}
+
+/* To style <span> for latin words to avoid using <i>, see note in HTML documents */
+.latin {
+	font-style: italic;
 }
  
 /*Added second font from previous pages to use a distinguisher in header in addition to bolded font.*/
@@ -199,7 +218,7 @@ font-size: 12px; color:#641E16;
 }
 
 
-
+/* Styles for photographed images following dissertation excerpt */
 /* Assignment Part 3 Requirement: 5/5 Images */
 .imageborder { 
 background-color:#641E16; color: #FFFDF8; 
@@ -222,7 +241,7 @@ margin-top: 12px; margin-right: 10px; margin-bottom: 10px; text-align:center;
 }
 
 
-	
+/* Styles for "footer" <div> and end of page */	
 .silinfo {
 background-color:#DAF7A6;padding-top: 20px; padding-right: 50px; padding-left: 50px; padding-bottom: 20px; border-radius: 10px; 
 margin-top: 55px; margin-bottom: 55px; margin-right: 50px; margin-left: 50px;
@@ -240,8 +259,9 @@ color:#641E16; text-align: justify; font-weight: 400; font-size: 15px; margin-to
 }
 
 /* Assignment Part 3 Requirement: 2/2 external links */
+/* Second font used to signify link in sentence */
 .sillink {
-	color:#641E16
+	color:#641E16; font-family:Georgia, serif;
 }
 
 
