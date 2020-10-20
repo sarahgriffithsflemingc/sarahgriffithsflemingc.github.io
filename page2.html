@@ -21,6 +21,7 @@ and https://www.w3schools.com/css/css_website_layout.asp website layout with hea
 
 <!-- Assignment Part 3 Requirement: Navigation Bars -->
 <!-- Navbar modified from https://www.w3schools.com/css/css_navbar_horizontal.asp -->
+<!-- Website layout of personal summary, resume, and projects inspired by https://www.wix.com/website/templates/html/portfolio-cv/personal (top left, Maya Nelson) -->
 
 <ul>
   <li><a class="active" href="index.html">A Brief Introduction</a></li>
@@ -31,53 +32,75 @@ and https://www.w3schools.com/css/css_website_layout.asp website layout with hea
 
 <!-- Two column layout modified from https://www.w3schools.com/css/css_website_layout.asp to recreate unequal column layout 
 of https://tinyurl.com/y24jsqfa . I have flipped the columns so that my experience is on the left while the contact and schools are on the right. -->
-<div class="column middle">
+<div class="column middle"> <!-- To create column -->
 	<h2 class="resumeheading"> Education </h2>
-	<div class="resumefield">
+	<div class="resumefield"> <!-- To create styled <div> block around text -->
 	<h4 class="degreecompany"> OCGC Geographic Information Systems - Applications Specialist </h4>
 	<h5 class="positionschool"> Fleming College 2020-2021</h5>
 	<p class="resumetxt"> Set to graduate June 2021. </p>
 	<h4 class="degreecompany"> MSc Environmental Archaeology </h4>
 	<h5 class="positionschool"> University of Reading 2015-2016 </h5>
-	<p class="resumetxt">Graduate with Distiction. Dissertation: "Commensals in Calleva: Using Animals as Indicators of Urban Activity and Human Ecology"</p>
+	<p class="resumetxt">Graduated with Distiction.</p>
+	<!-- <span class> used to italicize the Latin word in sentence following as per instructions to not use HTML to style -->
+ <!-- <i> could be used as it denotes another language, as per https://www.w3schools.com/tags/tag_i.asp , however used <span> for assignment instructions -->
+	<p class="resumetxt">Dissertation: "Commensals in <span class="latin">Calleva</span>: Using Animals as Indicators of Urban Activity and Human Ecology"</p>
+	<p class="resumetxt">Courses Inlcuded: Issues and Debates in Environmental Archaeology; Palaeopathology; 
+	Field Methods and Experimentation in Environmental Archaeology;  Earth Science and Archaeologiocal Investigations in the Field;
+	Molluscan Biostratigraphy; Quantitative Methods in Environmental Archaeology; Food and Culture; Zooarchaeology.</p>
 	<h4 class="degreecompany"> BA Anthropology; Classics </h4>
 	<h5 class="positionschool"> Saint Mary's University 2011-2015 </h5>
-	<p class="resumetxt">Double major in Anthropology and Classics; Minor in Irish Studies.
-Institutional Honours: summa cum laude; Brian O'Brien Irish Studies Medal; Dean's List 2012-2015, International Mobility Award 2013.</p>
+	<p class="resumetxt">Double major in Anthropology and Classics; Minor in Irish Studies. </p>
+    <p class="resumetxt">Institutional Honours: summa cum laude; Brian O'Brien Irish Studies Medal; Dean's List 2012-2015, 
+	International Mobility Award 2013.</p>
+	<p class="resumetxt"> Courses included: Field Study Roman Archaeology; Lab Methods Roman Archaeology; Language, Culture and Society; 
+	Anthropology of food; Palaeoanthropology; Archaeology of Death; Anthropology of Work; Fieldwork in Archaeology; Archaeology Laboratory; Warfare and Aggression.</p>
 	</div>
 	<h2 class="resumeheading"> Field Work </h2>
-	<div class="resumefield">
+	<div class="resumefield"> <!-- To create styled <div> block around text -->
 	<h4 class="degreecompany"> Boreas Heritage Consulting Inc </h4>
 	<h5 class="positionschool"> Field Technician 2018, 2019 </h5>
 	<h4 class="degreecompany"> Field Schools </h4>
 	<h5 class="positionschool"> Gotlands Folkhögskola & Arendus 2014 </h5>
 	<p class="resumetxt"> Excavation of seasonal domestic and production sites. Landscape
 analysis, phosphate mapping, metal detecting, on-site recording, and
-		post-excavation reporting. </p>
+	post-excavation reporting. </p>
 	<h5 class="positionschool"> Basentello Valley Archaeological Research Project 2013 </h5>
-		<p>Excavation of a Roman imperial estate and field survey of the Basentello
-			River Valley. Finds processing, data entry, and on-site recording.</p>
+	<p class="resumetxt">Excavation of a Roman imperial estate and field survey of the Basentello
+	River Valley. Finds processing, data entry, and on-site recording.</p>
 	<h5 class="positionschool"> Queen’s University Archaeological Field School 2012 </h5>
-		<p>Neolithic, Roman and
+	<p class="resumetxt">Neolithic, Roman and
 Medieval British archaeology. Excavation methodology and finds
-			processing.</p>
+	processing.</p>
 	<h4 class="degreecompany"> Parks Canada Archaeology Lab Dartmouth</h4>
 	<h5 class="positionschool"> Volunteer 2011-2012 </h5>
 	</div>
 	</div>
 
-<!-- Two column layout, as above. -->
-<div class="column side">
+<!-- Two column layout, as above -->
+<div class="column side"> <!-- To create column -->
 	<h3 class="sidebartitle"> Contact </h3>
 	<p class="contact"> sarah.griffiths@flemingcollege.ca</p>
 <!-- Left off phone number for purpose of this assignment -->	
 	<p class="contact2"> 000-000-0000</p>
 <!-- Assignment Part 3 Requirement: 1/2 external links -->
-	<p class="contact2"> <a class="contactlink" href="https://www.linkedin.com/in/sarah-griffiths-632a06141/">LinkedIn</a></p>
+<!-- Modified link to open in new tab following https://www.w3schools.com/TAgs/tryit.asp?filename=tryhtml_link_target -->
+	<p class="contact2"> <a class="contactlink" href="https://www.linkedin.com/in/sarah-griffiths-632a06141/" target="_blank">LinkedIn</a></p>
 	<h3 class="sidebartitle"> Skills </h3>
-	<p class="sidebartext">Osteological analysis of human and animal remains. Molluscan Analysis. Dry and Wet Seiving. Flotation. Soil Sampling. Pollen and LOI Sub-Sampling. SPSS. Minitab. </p>
+<!-- Underorder list format from https://www.w3schools.com/html/html_lists.asp -->
+	<ul class="sidebartext">
+	<li>Osteological analysis of human and animal remains</li>
+	<li>Molluscan Analysis</li>
+	<li>Dry and Wet Seiving</li>
+	<li>Flotation and Soil Sampling</li>
+	<li>Pollen and LOI Sub-Sampling</li>
+	<li>SPSS & Minitab</li>
+	</ul>
 	<h3 class="sidebartitle"> Certifications & Licenses </h3>
-	<p class="sidebartext">Emergency First Aid CPR "A" & AED. Food Safety Training Program 1. Class 5 Drivers License.</p>
+	<ul class="sidebartext">
+	<li>Emergency First Aid CPR "A" & AED</li>
+	<li>Food Safety Training Program 1</li>
+	<li>Class 5 Drivers License</li>	
+</ul>
 
 </div>
 
