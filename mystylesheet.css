@@ -57,7 +57,7 @@ li a:hover {
 }
 
 .tagline {
-  margin:auto; margin-block-start:0px; margin-block-end: 30px; width: 50%; text-align: center; padding-top: 30px; padding-bottom: 10px; font-size: 30px; color: #641E16; 
+  margin:auto; margin-top:0px; margin-bottom: 30px; width: 50%; text-align: center; padding-top: 30px; padding-bottom: 10px; font-size: 30px; color: #641E16; 
 border-bottom: 4px solid; border-color: #641E16; font-weight:700;
 
 }
