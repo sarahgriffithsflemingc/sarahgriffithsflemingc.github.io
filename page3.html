@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!-- The goal of this page was to provide a layout for future publications if I were to build a personal website to use as a CV. While my dissertation
-is not published, I would like to publish articles in the future.-->
+is not published, I would like to publish articles in the future and thus wanted to try out a format that might be suitable -->
 
 <!-- External stylesheet following https://www.w3schools.com/html/html_css.asp -->
 <head>
@@ -19,29 +19,36 @@ is not published, I would like to publish articles in the future.-->
 
 <!-- Assignment Part 3 Requirement: Navigation Bars -->
 <!-- Navbar modified from https://www.w3schools.com/css/css_navbar_horizontal.asp -->
+<!-- Website layout of personal summary, resume, and projects inspired by https://www.wix.com/website/templates/html/portfolio-cv/personal (top left, Maya Nelson) -->
+
 <ul>
   <li><a class="active" href="index.html">A Brief Introduction</a></li>
   <li><a href="page2.html">Experience and Skills</a></li>
   <li><a href="page3.html">Excerpt From Dissertation</a></li>
 </ul>
 
+<!-- <span class> used to italicize the Latin word in sentence following as per instructions to not use HTML to style -->
+<!-- <i> could be used as it denotes another language, as per https://www.w3schools.com/tags/tag_i.asp , however used <span> for assignment instructions -->
+<h2 class="disstitle"> Commensals in <span class="latin">Calleva</span>: Using Animals as Indicators of Urban Activity and Human Ecology </h2>
 
-<h2 class="disstitle"> Commensals in <i>Calleva</i>: Using Animals as Indicators of Urban Activity and Human Ecology </h2>
-
-<!-- The following is the Abstract and Introduction from my personal dissertation, written as part of my MSc. -->
-<!-- The Commensal Assemblage diagram was created by me as part of my dissertation. -->
+<!-- The following is the Abstract and Introduction from my personal dissertation, written as part of my MSc. Cited in APA in <p> content below -->
+<!-- The Commensal Assemblage diagram was created by me as part of my dissertation -->
 <!-- Figure with caption modified from textbook Duckett (2011) "HTML & CSS" -->
-<div class="dissbody">
+<!-- Use of permitted image size in HTML tag through attributes as per assignment and https://www.w3schools.com/html/html_images.asp -->
+<div class="dissbody"> <!-- To create styled <div> block around text -->
 <figure class="dissimage">
 <img src= "images/CommensalAssemblage.png" alt= "Silchester Insula III Commensal Assemblage" width="500" height="500" > 
-<figcaption class="figtext">Pictorial representation of the commensal assemblage identified at Silchester from Insula III.</figcaption>
+<figcaption class="figtext">Pictorial representation of the commensal assemblage identified at Silchester from Insula III. Griffiths (2016).
+</figcaption>
 </figure>
 
 <h3 class="dissheading"> Abstract </h3>
+<!-- <span class> used to italicize the Latin word in sentence following as per instructions to not use HTML to style -->
+<!-- <i> could be used as it denotes another language, as per https://www.w3schools.com/tags/tag_i.asp , however used <span> for assignment instructions -->
 <p class="disstext">Commensals are synanthropic animal species that utilize the modified or constructed environment of human habitations for living 
 space or food. Archaeological studies on commensal species can inform how sites were used, indicate abandonment and provide needed contributions to 
 biogeographical studies of modern distributions, abundance of species and conservation of species in rapid decline. Zooarchaeological discussions of 
-Roman Britain are largely focused on the diet and economies of the past. Silchester (Calleva Atrebatum) is one of six Roman towns in Britain that is 
+Roman Britain are largely focused on the diet and economies of the past. Silchester (<span class="latin">Calleva Atrebatum</span>) is one of six Roman towns in Britain that is 
 unpopulated today and the spatial and temporal characteristics of the town’s abandonment is not fully understood. By detailed assessment of the faunal
  assemblage of Insula III and comparison to other assemblages at Silchester and other large Roman towns, it was found that commensal community varies 
  between towns and calls for more careful identification and assessment of small animals and birds. However, the presence of black rat, wood mice and 
@@ -50,10 +57,10 @@ unpopulated today and the spatial and temporal characteristics of the town’s a
 <h3 class="dissheading"> Introduction </h3>
 <p class="disstext">The arrival of the Romans in Britain has been argued to be contemporaneous with the arrival of urbanism, one of the many 
 introductions influenced by or enacted by the Roman increase in territory and area of influence (O’Connor, 1992: 109). Whether established on a 
-pre-existing nucleating site (oppidum) or built on new ground, each occurrence of urbanism was unique (Jones, 1991) and would have been a significant 
+pre-existing nucleating site (<span class="latin">oppidum</span>) or built on new ground, each occurrence of urbanism was unique (Jones, 1991) and would have been a significant 
 change to landscape and life in Britain. Silchester was first the site of a late first century B.C. Iron Age oppidum, rapidly developed 
 (Fulford, 2000: 546) and called Calleva (‘woody place’) in what is now Hampshire. An important Iron Age trading centre 
-(Fulford, 2000: 550), a Roman ‘urban’ space was established in mid-first century A.D. Calleva Atrebatum, as it was called, was a civitas capital 
+(Fulford, 2000: 550), a Roman ‘urban’ space was established in mid-first century A.D. <span class="latin">Calleva Atrebatum</span>, as it was called, was a civitas capital 
 that retained its significant as a trade centre that housed industry and luxury (Boon, 1974) situated between the Upper and Lower Thames and the 
 Wessex chalklands (Cunliffe, 2012). With the collapse of the Western Roman Empire, urbanism was thought to have toppled as settlement reverted 
 back to the pre-Roman, rural lifestyle (Jones, 1991). However, recent studies of this Post-Roman - early Anglo-Saxon period have contended this 
@@ -73,49 +80,74 @@ underrepresented, however. The neglect to study these species in earlier zooarch
 however, this neglect continues and encompasses the greater academic sphere (O’Connor, 2013). As such, we have little evidence to understand 
 how development and abandonment of Britain in the Roman period affected the ecology of towns (O’Connor, 2010: 132), neglecting a potential source 
 of insight into urban life through the Roman and into post-Roman periods.</p>
+
+<!-- Use of <cite> from https://www.w3schools.com/tags/tag_i.asp -->
+<p class="disstext"> Griffiths, S.C. (2016) <cite> Commensals in</cite> Calleva<cite>: Using Animals as Indicators of Urban Activity and Human Ecology</cite> 
+[Unpublished master's dissertation] University of Reading.</p>
 </div>
+
 
 
 <!-- Assignment Part 3 Requirement: 5/5 Images -->
 <!-- All images photographed by myself as part of my MSc dissertation, used in this assignment curtesy of Prof. Mike Fulford. -->
+<!-- Images to be removed following the marking of this assignment. -->
 <!-- Figure with caption modified from textbook Duckett (2011) "HTML & CSS" -->
-<div>
+<!-- Use of <cite> from https://www.w3schools.com/tags/tag_i.asp -->
+<!-- Use of permitted image size in HTML tag through attributes as per assignment and https://www.w3schools.com/html/html_images.asp -->
+
+<div> <!-- To create 1 block around text all images -->
 <figure class="imageborder">
 <img class="imagecenter" src= "images/mousefemur.jpg" alt= "Wood Mouse Femur" width="600" height="222">
-<figcaption class="imagecap"> The left femur of a wood mouse recovered from a Late Roman accumulation deposit.</figcaption>
+<figcaption class="imagecap"> The left femur of a wood mouse recovered from a Late Roman accumulation deposit.
+Griffiths, S.C. (2016) <cite> Commensals in</cite> Calleva<cite>: Using Animals as Indicators of Urban Activity and Human Ecology</cite> 
+[Unpublished master's dissertation] University of Reading.
+</figcaption>
 </figure>
 
 <figure class="imageborder">
 <img class="imagecenter" src= "images/mousemandible.jpg" alt= "Wood Mouse Mandible" width="600" height="325">
-<figcaption class="imagecap"> The right mandile of a wood mouse from a Late Roman accumulation deposit.</figcaption>
+<figcaption class="imagecap"> The right mandile of a wood mouse from a Late Roman accumulation deposit.
+Griffiths, S.C. (2016) <cite> Commensals in</cite> Calleva<cite>: Using Animals as Indicators of Urban Activity and Human Ecology</cite> 
+[Unpublished master's dissertation] University of Reading.
+</figcaption>
 </figure>
 
 <figure class="imageborder">
 <img class="imagecenter" src= "images/rattoothwear.jpg" alt= "Black Rat Maxilla" width="600" height="328">
-<figcaption class="imagecap"> The maxilla of a black rat possessing the first and second molars from a Late Roman Dark Soil accumulation deposit.</figcaption>
+<figcaption class="imagecap"> The maxilla of a black rat possessing the first and second molars from a Late Roman Dark Soil accumulation deposit.
+Griffiths, S.C. (2016) <cite> Commensals in</cite> Calleva<cite>: Using Animals as Indicators of Urban Activity and Human Ecology</cite> 
+[Unpublished master's dissertation] University of Reading.
+</figcaption>
 </figure>
 
 <figure class="imageborder">
 <img class="imagecenter" src= "images/finchcarpometacarpus.jpg" alt= "Finch Carpometacarpus" width="600" height="235">
-<figcaption class="imagecap"> A complete carpometacarpus of a finch, likely chaffinch.</figcaption>
+<figcaption class="imagecap"> A complete carpometacarpus of a finch, likely chaffinch.
+Griffiths, S.C. (2016) <cite> Commensals in</cite> Calleva<cite>: Using Animals as Indicators of Urban Activity and Human Ecology</cite> 
+[Unpublished master's dissertation] University of Reading.
+</figcaption>
 </figure>
 
 <figure class="imageborder">
 <img class="imagecenter" src= "images/sparrowhumerus.jpg" alt= "Sparrow Humerus" width="600" height="294">
-<figcaption class="imagecap"> A complete left humerus of a sparrow, likely house sparrow or tree-sparrow, partially burn. </figcaption>
+<figcaption class="imagecap"> A complete left humerus of a sparrow, likely house sparrow or tree-sparrow, partially burn. 
+Griffiths, S.C. (2016) <cite> Commensals in</cite> Calleva<cite>: Using Animals as Indicators of Urban Activity and Human Ecology</cite> 
+[Unpublished master's dissertation] University of Reading.
+</figcaption>
 </figure>
 
 </div>
 
 
 
-<div class="silinfo">
+<div class="silinfo"> <!-- To create styled <div> block around text -->
 <h3 class="silheading"> Silchester Life Project </h3>
 <p class="siltext"> This research compliments the themes of the Silchester ‘Town Life’ project in that it seeks to provide new insight 
 into life over time in the town by exploring urban ecology through commensal species and reinforces the need for further research in this 
 area not only to expand archaeological knowledge but for its implications on human ecology today.</p>
 <!-- Assignment Part 3 Requirement: 2/2 external links -->
-<p class="siltext"> To find out more about Silchester and previous excavations visit <a class="sillink" href="https://research.reading.ac.uk/silchester/">
+<!-- Modified link to open in new tab following https://www.w3schools.com/TAgs/tryit.asp?filename=tryhtml_link_target -->
+<p class="siltext"> To find out more about Silchester and previous excavations visit <a class="sillink" href="https://research.reading.ac.uk/silchester/" target="_blank">
 Research University of Reading</a>.</p>
 </div>
 
