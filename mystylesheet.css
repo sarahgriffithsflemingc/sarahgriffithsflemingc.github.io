@@ -79,6 +79,7 @@ border-bottom: 4px solid; border-color: #641E16; font-weight:700;
 
 /* Alignment of header following https://www.w3schools.com/css/css_text_align.asp */
 /* I've incorporated a second font to distinguish the use of a different language in my header */
+/* Font-family from https://www.w3schools.com/css/css_font.asp */
 .gaelicheader {
 	text-align: center; color: #641E16; font-size: 20px; font-weight:700; margin-top: 15px; margin-bottom: 15px; 
 	font-family:Georgia, serif;
@@ -125,6 +126,7 @@ color: #641E16; font-size: 25px; margin-bottom:0px; margin-top:15px; font-weight
 }
 
 /* I've incorporated a second font to distinguish this heading from the one above and the text below in place of using italics. */
+/* Font-family from https://www.w3schools.com/css/css_font.asp */
 .positionschool {
 color: #641E16; font-size: 20px; margin-bottom:5px; margin-top:2px; font-weight: 500; font-family:Georgia, serif; text-align: left;
 }
@@ -140,6 +142,7 @@ color: #666600; font-size: 25px; margin-top: 45px; margin-bottom:30px; text-alig
 
 
 /* To tie in the second font used in my right column section, I used the font again in my sidebar. */
+/* Font-family from https://www.w3schools.com/css/css_font.asp */
 .sidebartext {
   margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; 
   padding-bottom: 20px; text-align: center; color: #FFFDF8; border-radius: 10px; font-size:15px; font-family:Georgia, serif;
@@ -147,7 +150,7 @@ color: #666600; font-size: 25px; margin-top: 45px; margin-bottom:30px; text-alig
 
 .contact {
   margin: auto; width: 50%; background-color: #641E16 ; padding-top: 20px; padding-right: 50px; padding-left: 50px; 
-  padding-bottom: 20px; color: #FFFDF8; border-radius: 10px; font-size:12px; font-family:Georgia, serif; text-align:center;
+  padding-bottom: 20px; color: #FFFDF8; border-radius: 10px; font-size:14px; font-family:Georgia, serif; text-align:center;
 }
 
 .contact2 {
@@ -227,6 +230,7 @@ margin-top: 55px; margin-bottom: 55px; margin-right: 50px; margin-left: 50px;
 }
 
 /*Added second font from previous pages to use a distinguisher in header in addition to bolded font.*/
+/* Font-family from https://www.w3schools.com/css/css_font.asp */
 .silheading {
 margin-top: 10px; margin-bottom: 10px; font-size:20px; font-weight: 700; font-family: Georgia, serif; text-align: left; color:#641E16
 }
